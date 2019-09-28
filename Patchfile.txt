@@ -1,0 +1,27 @@
+Common subdirectories: linuxOriginal/arch and /usr/src/linux-3.16.74/arch
+Common subdirectories: linuxOriginal/block and /usr/src/linux-3.16.74/block
+Common subdirectories: linuxOriginal/crypto and /usr/src/linux-3.16.74/crypto
+Common subdirectories: linuxOriginal/Documentation and /usr/src/linux-3.16.74/Documentation
+Common subdirectories: linuxOriginal/drivers and /usr/src/linux-3.16.74/drivers
+Common subdirectories: linuxOriginal/firmware and /usr/src/linux-3.16.74/firmware
+Common subdirectories: linuxOriginal/fs and /usr/src/linux-3.16.74/fs
+Common subdirectories: linuxOriginal/include and /usr/src/linux-3.16.74/include
+Common subdirectories: linuxOriginal/init and /usr/src/linux-3.16.74/init
+Common subdirectories: linuxOriginal/ipc and /usr/src/linux-3.16.74/ipc
+Common subdirectories: linuxOriginal/kernel and /usr/src/linux-3.16.74/kernel
+Common subdirectories: linuxOriginal/lib and /usr/src/linux-3.16.74/lib
+diff linuxOriginal/Makefile /usr/src/linux-3.16.74/Makefile
+855c855
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ newdir/
+Common subdirectories: linuxOriginal/mm and /usr/src/linux-3.16.74/mm
+Common subdirectories: linuxOriginal/net and /usr/src/linux-3.16.74/net
+Only in /usr/src/linux-3.16.74/: newdir
+Common subdirectories: linuxOriginal/samples and /usr/src/linux-3.16.74/samples
+Common subdirectories: linuxOriginal/scripts and /usr/src/linux-3.16.74/scripts
+Common subdirectories: linuxOriginal/security and /usr/src/linux-3.16.74/security
+Common subdirectories: linuxOriginal/sound and /usr/src/linux-3.16.74/sound
+Common subdirectories: linuxOriginal/tools and /usr/src/linux-3.16.74/tools
+Common subdirectories: linuxOriginal/usr and /usr/src/linux-3.16.74/usr
+Common subdirectories: linuxOriginal/virt and /usr/src/linux-3.16.74/virt
